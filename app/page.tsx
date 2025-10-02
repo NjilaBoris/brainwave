@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import React from "react";
 import ButtonGradient from "@/public/svg/ButtonGradient";
 import Benefits from "@/components/Benefits";
+import Collaboration from "@/components/Collaboration";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Header />
         <Hero />
         <Benefits />
+        <Collaboration />
       </div>
       <ButtonGradient />
     </>
